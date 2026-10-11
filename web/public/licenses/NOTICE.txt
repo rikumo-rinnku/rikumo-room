@@ -1,0 +1,10 @@
+RikumoRoom optional RNNoise audio processing
+
+WebAssembly binaries: @shiguredo/rnnoise-wasm, version 2022.2.0
+Author: Shiguredo Inc.
+Source: https://github.com/shiguredo/rnnoise-wasm
+Package license: Apache License 2.0 (shiguredo-Apache-2.0.txt)
+Underlying RNNoise: BSD 3-Clause (RNNoise-BSD.txt)
+
+The application uses the unmodified regular and SIMD WASM binaries.
+The AudioWorklet bridge is implemented in this project.

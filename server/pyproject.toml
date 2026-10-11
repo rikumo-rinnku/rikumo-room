@@ -1,0 +1,17 @@
+[project]
+name = "rikumo-room-server"
+version = "0.1.0"
+description = "Application API for the Rikumo Room voice platform"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "pydantic-settings>=2.7,<3",
+  "livekit-api>=1.0,<2",
+  "pwdlib[argon2]>=0.2,<1",
+  "tzdata>=2025.1",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+*.tsbuildinfo
+node_modules/
+dist/
+server/data/
+.dev/
+# Local voice recordings and internal incident details.
+问题/
+docs/audio-incident-*.md
+tools/livekit-server.exe
+.DS_Store
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.pem
+*.key
